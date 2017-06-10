@@ -108,6 +108,10 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="design\01.要件定義\01_機能要件.xlsx" />
+    <None Include="design\02.外部設計\00.共通\01_機能一覧.xlsx" />
+    <None Include="design\02.外部設計\00.共通\02_画面一覧.xlsx" />
+    <None Include="design\02.外部設計\00.共通\03_データ一覧.xlsx" />
+    <None Include="design\02.外部設計\00.共通\04_モジュール構成図.xlsx" />
     <None Include="WorkBook_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +144,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="design\02.外部設計\" />
     <Folder Include="design\03.内部設計\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
